@@ -23,7 +23,7 @@
 
 # Task 1
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 ### SQL:
 
@@ -75,7 +75,7 @@ create table Трудовая_деятельность
 
 # Task 2
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -130,7 +130,7 @@ VALUES (51040, 'Понедельник', 1, 1, 7, 4, 20000),
 
 # Task 3
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -203,7 +203,7 @@ set оплата = количество * (select стоимость
 
 # Task 4
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -253,7 +253,7 @@ c.)
 
 # Task 5
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -305,7 +305,7 @@ e.)
 
 # Task 6
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -376,7 +376,7 @@ d.)
 
 # Task 7
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -495,7 +495,7 @@ a.)
 
 # Task 8
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -530,7 +530,7 @@ set оплата = оплата - (select налог
 
 # Task 9
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -571,7 +571,7 @@ set отчисление_в_бюджет = (select отчисление_в_ме�
 
 # Task 10
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -655,7 +655,7 @@ e.)
 
 # Task 11
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -738,7 +738,7 @@ d.)
 
 # Task 12
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -762,7 +762,7 @@ from "Место_работы";
 
 # Task 13
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -829,7 +829,7 @@ VALUES (666666, 'Понедельник', 1, 3, 2, 1, 14000);
 
 # Task 14
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
@@ -893,7 +893,7 @@ d.) 3
 
 # Task 15
 
-[To task list](#Data-Bases-Lab-#2)
+[To task list](#data-bases-lab-2)
 
 #### SQL:
 
