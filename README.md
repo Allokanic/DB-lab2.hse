@@ -1,6 +1,6 @@
 <!-- TOC -->
 # Data Bases Lab #2 (option 4)
-* [Task list](#Решение)
+* [Task list](#Solving)
     * [task 1(level 1)](#Задание-1)
     * [task 2(level 1)](#Задание-2)
     * [task 3(level 1)](#Задание-3)
@@ -19,7 +19,7 @@
 <!-- TOC -->
 
 # Task 1
-[To task list](#Overview)
+[To task list](#Solving)
 ### SQL:
 ```sql
 drop table if exists Трудовая_деятельность;
@@ -63,7 +63,7 @@ foreign key (операция) references Типы_операций(иденти
 );
 ```
 # Task 2
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 insert into "Медперсонал"
@@ -119,7 +119,7 @@ VALUES
 ```
 
 # Task 3
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 select * from "Медперсонал";
@@ -184,7 +184,7 @@ set оплата = количество * (select стоимость
 >Note: All the next queries will be performed on this table.
 
 # Task 4
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -229,7 +229,7 @@ c.)
 | Суббота |
 
 # Task 5
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -276,7 +276,7 @@ e.)
 | Инъекция алоэ | 11000 | Навашино |
 
 # Task 6
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -342,7 +342,7 @@ d.)
 | 51048 | Больница | 4 | 44000 |
 
 # Task 7
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -456,7 +456,7 @@ a.)
 | Суббота | 3 | Бессонов |
 
 # Task 8
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 update "Трудовая_деятельность"
@@ -486,7 +486,7 @@ set оплата = оплата - (select налог
 | 51056 | Суббота | 3 | 6 | 3 | 2 | 19800 |
 
 # Task 9
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 >Will be performed on the table from previous task
 ```sql
@@ -520,7 +520,7 @@ set отчисление_в_бюджет = (select отчисление_в_ме�
 | 51056 | Суббота | 3 | 6 | 3 | 2 | 19800 | 594 |
 
 # Task 10
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -598,7 +598,7 @@ e.)
 | УЗИ |
 
 # Task 11
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -673,7 +673,7 @@ d.)
 | Суббота | 3 | Бессонов |
 
 # Task 12
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 select адрес
@@ -692,7 +692,7 @@ from "Место_работы";
 | Навашино |
 
 # Task 13
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- с.)
@@ -756,7 +756,7 @@ VALUES (666666, 'Понедельник', 1, 3, 2, 1, 14000);
 ```
 
 # Task 14
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
@@ -816,7 +816,7 @@ e.)
 d.) 3
 
 # Task 15
-[To task list](#Overview)
+[To task list](#Solving)
 #### SQL:
 ```sql
 -- c.)
