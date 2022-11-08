@@ -1,25 +1,25 @@
 <!-- TOC -->
 # Data Bases Lab #2 (option 4)
 * [Task list](#Solving)
-    * [task 1(level 1)](#Задание-1)
-    * [task 2(level 1)](#Задание-2)
-    * [task 3(level 1)](#Задание-3)
-    * [task 4(level 1)](#Задание-4)
-    * [task 5(level 1)](#Задание-5)
-    * [task 6(level 1)](#Задание-6)
-    * [task 7(level 1)](#Задание-7)
-    * [task 8(level 1)](#Задание-8)
-    * [task 9(level 1)](#Задание-9)
-    * [task 10(level 2)](#Задание-10)
-    * [task 11(level 2)](#Задание-11)
-    * [task 12(level 2)](#Задание-12)
-    * [task 13(level 2)](#Задание-13)
-    * [task 14(level 2)](#Задание-14)
-    * [task 15(level 2)](#Задание-15)
+    * [task 1(level 1)](#Task-1)
+    * [task 2(level 1)](#Task-2)
+    * [task 3(level 1)](#Task-3)
+    * [task 4(level 1)](#Task-4)
+    * [task 5(level 1)](#Task-5)
+    * [task 6(level 1)](#Task-6)
+    * [task 7(level 1)](#Task-7)
+    * [task 8(level 1)](#Task-8)
+    * [task 9(level 1)](#Task-9)
+    * [task 10(level 2)](#Task-10)
+    * [task 11(level 2)](#Task-11)
+    * [task 12(level 2)](#Task-12)
+    * [task 13(level 2)](#Task-13)
+    * [task 14(level 2)](#Task-14)
+    * [task 15(level 2)](#Task-15)
 <!-- TOC -->
 
 # Task 1
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 ### SQL:
 ```sql
 drop table if exists Трудовая_деятельность;
@@ -63,7 +63,7 @@ foreign key (операция) references Типы_операций(иденти
 );
 ```
 # Task 2
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 insert into "Медперсонал"
@@ -119,7 +119,7 @@ VALUES
 ```
 
 # Task 3
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 select * from "Медперсонал";
@@ -184,7 +184,7 @@ set оплата = количество * (select стоимость
 >Note: All the next queries will be performed on this table.
 
 # Task 4
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -229,7 +229,7 @@ c.)
 | Суббота |
 
 # Task 5
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -276,7 +276,7 @@ e.)
 | Инъекция алоэ | 11000 | Навашино |
 
 # Task 6
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -342,7 +342,7 @@ d.)
 | 51048 | Больница | 4 | 44000 |
 
 # Task 7
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -456,7 +456,7 @@ a.)
 | Суббота | 3 | Бессонов |
 
 # Task 8
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 update "Трудовая_деятельность"
@@ -486,7 +486,7 @@ set оплата = оплата - (select налог
 | 51056 | Суббота | 3 | 6 | 3 | 2 | 19800 |
 
 # Task 9
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 >Will be performed on the table from previous task
 ```sql
@@ -520,7 +520,7 @@ set отчисление_в_бюджет = (select отчисление_в_ме�
 | 51056 | Суббота | 3 | 6 | 3 | 2 | 19800 | 594 |
 
 # Task 10
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -598,7 +598,7 @@ e.)
 | УЗИ |
 
 # Task 11
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -673,7 +673,7 @@ d.)
 | Суббота | 3 | Бессонов |
 
 # Task 12
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 select адрес
@@ -692,7 +692,7 @@ from "Место_работы";
 | Навашино |
 
 # Task 13
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- с.)
@@ -756,7 +756,7 @@ VALUES (666666, 'Понедельник', 1, 3, 2, 1, 14000);
 ```
 
 # Task 14
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
@@ -816,7 +816,7 @@ e.)
 d.) 3
 
 # Task 15
-[To task list](#Solving)
+[To task list](#Data-Bases-Lab-#2-(option 4))
 #### SQL:
 ```sql
 -- c.)
